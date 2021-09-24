@@ -5,15 +5,15 @@ This project started with an assignment from Professor John Williams in my MIT X
 
 After doing this, I extended the assignment and converted it into a game where the user gets to interact with a pair of eyes (the "monster") in several ways.  They can change the size and shape of the eyes; turn the watching function on and off; make the monster blink; add irises to the pupils and repeatedly change their color to a random color; and use the provided 6 "eye shadows" (the "makeover").
 
-*Original Author:* John Williams
+*Original Author:* John Williams  
 *Additional Coding:* Kathryn Michael
 
 ## How to Run:
 
 Download these three files and save them itogether in a directory:
--index.html
--style.css
--eyes.js
+- index.html
+- style.css
+- eyes.js
 
 Open index.html in your browser. You should now be able to play the game in your browser.
 
