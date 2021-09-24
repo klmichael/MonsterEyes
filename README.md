@@ -1,4 +1,4 @@
-# Project Title: Eye Exercise: A Monster Makeover
+# Eye Exercise: A Monster Makeover
 
 ## Description of Project: 
 This project started with an assignment from Professor John Williams in my MIT XPro Bootcamp in week 8.  We were given the files constructing an eye in the browser that appears to follow the mouse movement and asked to add a second eye.
