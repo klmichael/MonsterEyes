@@ -4,13 +4,25 @@ body {
   background: #14495e;
 }
 
+button {
+  margin-right: 10px;
+  background-color: thistle;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 75px; 
+  width: 125px; 
+}
+
+.face {
+  height: 80%;
+  }
+
 .eyes {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  z-index: 1;
   }
 
 .eye {
@@ -26,76 +38,63 @@ body {
   border: hotpink;
   border-width: 5px;
   border-style: solid;
-}
+  }
 
 .ball {
-    width: 80px;
-    height: 80px;
-    background: #000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: (-50%, -50%);
-    border-radius: 50%;
-    border-color:  #000;
-    border-width: 20px;
-    border-style: solid;
-    z-index: 3;
+  width: 80px;
+  height: 80px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: (-50%, -50%);
+  border-radius: 50%;
+  border-color:  #000;
+  border-width: 20px;
+  border-style: solid;
+  z-index: 3;
   }
 
-  #game {
-    height: 80%;
-    }
-
-  #controls {
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-
-  .eye_shadow_box {
-      display: grid;
-      grid-template-columns: 50px 50px 50px;
-      grid-template-rows: 50px 50px;
-      border: 2px solid white;
-      float: left;
-      margin: 0px 25px;
+.controls {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
-
-  .shade {
-      border: 2px solid silver;
+.eye_shadow_box {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px;
+  border: 2px solid white;
+  float: left;
+  margin: 0px 25px;
   }
 
-  #shade0 {
-      background-color: hotpink;
+.shade {
+  border: 2px solid silver;
   }
 
-  #shade1 {
-      background-color: plum;  
+.hot-pink {
+  background-color: hotpink;
   }
 
-  #shade2 {
-    background-color: cyan; 
+.plum {
+  background-color: plum;  
   }
 
-  #shade3 {
-    background-color: gold; 
+.cyan {
+  background-color: cyan; 
   }
 
-  #shade4 {
-    background-color: lemonchiffon; 
+.gold {
+  background-color: gold; 
   }
 
-  #shade5 {
-    background-color: chartreuse; 
+.lemon-chiffon {
+  background-color: lemonchiffon; 
   }
-  
-  button {
-    margin-right: 10px;
-    background-color: thistle;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 75px; 
-    width: 125px; 
+
+.chartreuse {
+  background-color: chartreuse; 
   }

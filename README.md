@@ -1,4 +1,4 @@
-# Eye Exercise: A Monster Makeover
+# Project Title: Eye Exercise: A Monster Makeover
 
 ## Description of Project: 
 This project started with an assignment from Professor John Williams in my MIT XPro Bootcamp in week 8.  We were given the files constructing an eye in the browser that appears to follow the mouse movement and asked to add a second eye.
@@ -25,7 +25,7 @@ In the future, I would like to add a **mouth** that would add to the user intera
 
 **MIT License**
 
-*Copyright (c) 2020 John Williams*
+*Copyright (c) 2020 Kathryn Michael*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
