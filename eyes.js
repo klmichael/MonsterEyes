@@ -98,7 +98,10 @@
       }
     }
 
-    //I also added this function so that the user could use the arrow keys instead of some of the buttons.
+    // I also added this function so that the user could use the arrow keys instead of some of the buttons.
+    // I got the idea from an exercise in "JavaScript for Kids" by Nick Morgan that used JQuery.
+    // I chose not to use JQuery and had to find a different way to do this here. I based it on the code example found in this article:
+    // https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event
 
       document.addEventListener('keyup', function (event) {
         if (event.key === "ArrowUp"){
