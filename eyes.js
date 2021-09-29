@@ -25,7 +25,9 @@
       }
     };
     
-    //I added these three functions to give the user control over whether or not the eyes are watching.
+    // I converted the given listening function into the first two functions.
+    // This Q&A showed me how to do the simple toggle syntax:
+    // https://stackoverflow.com/questions/37164993/javascript-toggle-between-2-functions
     function onWatch() {
       document.addEventListener('mousemove', watchingUser);
       watch = true;
