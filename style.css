@@ -1,9 +1,11 @@
+/* Code provided to me. */
 body {
   margin: 0;
   padding: 0;
   background: #14495e;
 }
 
+/* I added this */
 button {
   margin-right: 10px;
   background-color: thistle;
@@ -12,10 +14,12 @@ button {
   width: 125px; 
 }
 
+/* Provided, but I renamed it as a class rather than ID*/
 .face {
   height: 80%;
   }
 
+/* Provided. */
 .eyes {
   position: absolute;
   top: 50%;
@@ -25,6 +29,7 @@ button {
   z-index: 1;
   }
 
+/* Code provided. I added the border styling. */
 .eye {
   width: 240px;
   height: 120px;
@@ -40,6 +45,7 @@ button {
   border-style: solid;
   }
 
+/* Code provided. I added the border styling. */
 .ball {
   width: 80px;
   height: 80px;
@@ -55,6 +61,7 @@ button {
   z-index: 3;
   }
 
+/* I added the rest of the styling below this point */
 .controls {
   height: 20%;
   display: flex;
